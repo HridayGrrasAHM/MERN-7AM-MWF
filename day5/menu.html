@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        table {
+            color: white;
+            margin-top: 20px;
+        }
+
+        td {
+            padding: 20px;
+            font-family: 'Fira Code';
+        }
+
+        input[type='submit'],
+        input[type='reset'] {
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+            padding: 10px;
+        }
+
+        /* td:hover {
+            background-color: white;
+            color: black;
+        } */
+        input[type='submit']:hover,
+        input[type='reset']:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            box-shadow: 0px 0px 10px white;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>Menu</h1>
+        <hr>
+        <table border="1" style="border-collapse: collapse;">
+            <form action="bill.html">
+
+                <tr>
+                    <td>Selection</td>
+                    <td>Item</td>
+                    <td>Price</td>
+                </tr>
+                <tr>
+                    <td>
+                        <center><input type="checkbox" name="" id=""></center>
+                    </td>
+                    <td>Panner Tikka</td>
+                    <td>350.00<sup>₹</sup></td>
+                </tr>
+                <tr>
+                    <td>
+                        <center><input type="checkbox" name="" id=""></center>
+                    </td>
+                    <td>Panner Butter Masala</td>
+                    <td>350.00<sup>₹</sup></td>
+                </tr>
+                <tr>
+                    <td>
+                        <center><input type="checkbox" name="" id=""></center>
+                    </td>
+                    <td>Malayi Kofta</td>
+                    <td>350.00<sup>₹</sup></td>
+                </tr>
+                <tr>
+                    <td>
+                        <center><input type="checkbox" name="" id=""></center>
+                    </td>
+                    <td>Butter Roti</td>
+                    <td>50.00<sup>₹</sup></td>
+                </tr>
+                <tr>
+                    <td>
+                        <center><input type="checkbox" name="" id=""></center>
+                    </td>
+                    <td>Butter Naan</td>
+                    <td>50.00<sup>₹</sup></td>
+                </tr>
+                <tr>
+                    <td>
+                        <center><input type="checkbox" name="" id=""></center>
+                    </td>
+                    <td>Tawa Roti</td>
+                    <td>10.00<sup>₹</sup></td>
+                </tr>
+                <tr>
+
+                    <td colspan="3">
+                        <center>
+                            <input type="submit" value="Order!"> <input type="reset" value="Cancel!">
+                        </center>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </center>
+</body>
+
+</html>

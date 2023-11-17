@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of CSS</title>
+    <style>
+        /* 
+            tag-name {
+                css-property
+            }
+        */
+        /* h1 {
+            color: blue;
+        } */
+
+        /* 
+        box model:
+        1. border
+        2. margin
+        3. padding 
+        */
+        div {
+            border: 1px solid black;
+            height: 300px;
+            width: 300px;
+            background-color: black;
+            color: white;
+            /* margin: 100px; */
+            /* margin-left: 100px; */
+            /* margin-right: 100px; */
+            /* margin-top: 100px; */
+            /* margin-bottom: 100px; */
+            /* float: left; */
+            /* padding: 50px; */
+            /* padding-left: 50px; */
+            /* padding-right: 50px; */
+            /* padding-top: 50px; */
+            /* padding-bottom: 50px; */
+            box-shadow: 0px 0px 50px black;
+            border-radius: 20px;
+            /* float: right; */
+        }
+        h1 {
+            margin: 50px;
+        }
+    </style>
+
+    <!-- <link rel="stylesheet" href="./main.css"> -->
+</head>
+<body>
+    <!-- 
+        There are three types of CSS:
+        1. inline -> css as an attribute
+        2. internal -> css as a tag
+        3. external -> css as a file
+     -->
+     <!-- <h1 style="color: red;">Heading</h1> -->
+     <!-- <h1>Heading</h1> -->
+     <div>
+        <h1>Hello world</h1>
+     </div>
+</body>
+</html>

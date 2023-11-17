@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output Tags</title>
+</head>
+<body>
+    <!-- 
+        Output Tags -> Table Tags
+     -->
+     <!-- <table border="1" style="border-collapse: collapse;">
+        <tr>
+            <th>Sr No</th>
+            <th>Name</th>
+            <th>Roll No</th>
+        </tr>
+        <tr>
+            <td colspan="2">1</td> -->
+            <!-- <td>2</td> -->
+            <!-- <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td rowspan="2">6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td> -->
+            <!-- <td>9</td> -->
+        <!-- </tr>
+     </table> -->
+     <center>
+     <h1>Registration Form</h1>
+     <table border="0" style="border-collapse: collapse;">
+        <form>
+            <tr>
+                <td><label>Full Name</label></td>
+                <td><input type="text" placeholder="Full Name" required></td>
+            </tr>
+            <tr>
+                <td><label>Age</label></td>
+                <td><input type="number" placeholder="Age" required></td>
+            </tr>
+            <tr>
+                <td><label>Phone Number</label></td>
+                <td><input type="tel" placeholder="Phone Number" required></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td>
+                    <ul>
+                        <li><input type="radio" name="gender"> <label>Male</label></li>
+                        <li><input type="radio" name="gender"> <label>Female</label></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Hobbies</label></td>
+                <td>
+                    <ul>
+                        <li><input type="checkbox" name="Hobbies"> <label>Running</label></li>
+                        <li><input type="checkbox" name="Hobbies"> <label>Dancing</label></li>
+                        <li><input type="checkbox" name="Hobbies"> <label>Singing</label></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Country</label></td>
+                <td>
+                    <center>
+                    <select>
+                        <option>India</option>
+                        <option>China</option>
+                        <option>USA</option>
+                        <option>Mexico</option>
+                        <option>London</option>
+                        <option>Maldives</option>
+                        <option>Japan</option>
+                    </select>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <center>
+                    <input type="submit" value="OK!">
+                    <input type="reset" value="Clear!">
+                    </center>
+                </td>
+            </tr>
+        </form>
+     </table>
+    </center>
+</body>
+</html>
